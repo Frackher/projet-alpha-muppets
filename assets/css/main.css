@@ -1383,7 +1383,10 @@ ul.actions {
     margin: 0 0 0.75em 0;
     font-size: 1.15em;
     letter-spacing: 0.05em; }
-
+.highlight img
+{
+  height:400px;
+}
 /* Main */
 /* Footer */
 #footer {
