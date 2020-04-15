@@ -445,7 +445,7 @@
 							if (i.val() == i.attr('placeholder')) {
 
 								i.removeClass('polyfill-placeholder');
-								i.val('');
+								i.val('Nom');
 
 							}
 
@@ -585,3 +585,14 @@
 	};
 
 })(jQuery);
+
+/*
+var valider=document.querySelector('#envoyer');
+valider.addEventListener('click', envoiMail);
+
+function envoiMail()
+{
+	mail( string $to , string $subject , string $message [, mixed $additional_headers [, string $additional_parameters ]] ) : bool
+}
+
+*/
