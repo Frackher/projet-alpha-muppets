@@ -7,6 +7,6 @@ infos.addEventListener("click", function () {
             " regroupe un ensemble de techniques de manipulation du génome visant à la modification du matériel (et donc de l\'information) génétique. " +
             "Ces techniques sont plus précises et ciblées que les techniques OGM historiques qui voient ces organismes transformés par transgenèse qui " +
             "introduit des modifications génétiques au niveau d\'un site « au hasard » dans le génome.",
-        button: "OK",
+        button: false,
     })
 });
