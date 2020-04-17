@@ -1882,3 +1882,9 @@ ul.actions {
           margin-top: 0; } }
 
 /*# sourceMappingURL=main.css.map */
+
+.feature-list section h3:hover:before{
+  filter: invert(1);
+  transform: scale(1.25) rotate(-45deg);
+  transition-duration: 0.5s, 1s;
+}
